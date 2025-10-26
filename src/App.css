@@ -1,0 +1,19 @@
+#mainApp{
+    display: grid;
+    grid-template-columns: 30vw 1fr;
+    height: 100%;
+    column-gap: 22px;
+}
+
+#rightPart {
+    margin: 8px 8px 0 8px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    height: fit-content;
+}
+
+#footer {
+    display: grid;
+    grid-column: 1 / span 2;
+}

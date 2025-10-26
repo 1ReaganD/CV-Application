@@ -1,0 +1,23 @@
+#education {
+    height: fit-content;
+    width: 100%;
+    max-width: 63vw;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    box-shadow: 0 0 10px 5px rgb(128, 128, 128);
+}
+
+#education h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: gray;
+}
+
+.education h2 {
+    color: gray;
+}
+
+.education {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    margin-top: 50px;
+}

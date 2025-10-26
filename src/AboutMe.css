@@ -1,0 +1,175 @@
+#AboutMe{
+    height: fit-content;
+    width: 100%;
+    max-width: 30vw;
+    margin: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    box-shadow: 0 0 10px 5px rgb(128, 128, 128);
+    padding-bottom: 25px;
+}
+
+#image{
+    width: 100%;
+    height: 45%;
+}
+
+#image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#image h2 {
+    margin: -50px 0 0 10px ;
+    height: 27px;
+}
+
+#information{
+    margin: 10px;
+    /* margin-top: 20px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+#information p {
+    padding: 20px 0 0 20px;
+    font-size: 1.1rem;
+}
+
+#skills h2 {
+    padding-left: 30px;
+}
+
+.skill p {
+    padding-left: 10px;
+}
+
+.myProgress {
+    background-color: gray;
+    height: 25px;
+    margin: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+.myBar {
+    background-color: green;
+    /* width: 25%; */
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+.myBar p {
+    line-height: 1.5;
+}
+#languages{
+    padding-top: 40px;
+}
+#languages h2 {
+    padding-left: 30px;
+}
+
+#languages p {
+    padding-left: 10px;
+}
+
+#buttonArea {
+    /* background-color: red; */
+    height: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+#download, #edit {
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#download:hover, #edit:hover {
+    background-color: gray;
+}
+
+#edit {
+    background-color: red;
+}
+
+#download {
+    background-color: green;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+#modalInnerPart {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+#email {
+    width: 450px;
+}
+
+#description {
+    width: 540px;
+    height: 100px;
+}
+
+body.modal-open {
+    overflow: hidden; /* Prevent body scrolling */
+}
+
+#save{
+    background-color: green;
+}
+
+#save:hover {
+    background-color: gray;
+}
+
+#save {
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+#buttonAreaModal {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    color: white;
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    margin-left: 440px;
+}
+
+.add:hover {
+    background-color: gray;
+}
+
