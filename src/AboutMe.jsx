@@ -28,7 +28,7 @@ function Modal(props) {
 }
 
 function AboutMe({ setWork, setEducation}) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const [details, setDetails] = useState({
         firstName: "",
